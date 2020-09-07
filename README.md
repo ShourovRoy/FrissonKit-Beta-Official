@@ -87,14 +87,14 @@ Note: "form" is the class to get in shape and "form-label" is to make the input 
 3. How to you alert module?
 use this code>>
 
-    <div id="close" class="alert-bar bg-red-4 bright" style="border-radius: 0px !important;">
-        <div class="alert-note">
-            Most advanced FrissonKit donate us now
-        </div>
-        <div class="alert-times" onclick="kill()">
-            <i class="fas fa-times-circle"></i>
-        </div>
-    </div>
+            <div id="close" class="alert-bar bg-red-4 bright" style="border-radius: 0px !important;">
+                <div class="alert-note">
+                    Most advanced FrissonKit donate us now
+                </div>
+                <div class="alert-times" onclick="kill()">
+                    <i class="fas fa-times-circle"></i>
+                </div>
+            </div>
     
 Note: (id="close") is must to close the alert. "alert-bar" is the class to get in shape, "bg-red-4" is for making background color and "bright" is for the white color of the text. Then "alert-note" class is used to get in shape of the alert message, "alert-times" class is used to contain the (x) icon class and (<i class="fas fa-times-circle"></i>)
 this is the font awesome class icon. Then {onclick="kill()"} option is used to make it close on click.
