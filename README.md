@@ -22,12 +22,16 @@ Improvements ?
 Use of new Features?
 
 1. How to use button in FrissonKit Beta ~ 5.0.4?
-   * <button class="btn bg-night-5 bright"> Click here </button>
-   * <a href="#" class="btn bg-night-5 bright"> Click here </a>
-   Note: "btn" will make the shape of button, "bg-night-5" is the background color, "bright" is the text color
+
+        <button class="btn bg-night-5 bright"> Click here </button>
+        <a href="#" class="btn bg-night-5 bright"> Click here </a>
+    
+    
+Note: "btn" will make the shape of button, "bg-night-5" is the background color, "bright" is the text color
    
 2. How to use form??
 use this code to see the work >>>
+
             <form class="form">
                 <label class="form-label" for="fname">First Name</label><br>
                 <input type="text" id="fname" name="firstname" placeholder="Your name..">
